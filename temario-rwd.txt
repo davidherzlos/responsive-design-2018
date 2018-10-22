@@ -1,0 +1,13 @@
+Para un temario de RWD yo primero:
+  Vería conceptos como:
+    Historia, hablar de la analogía con el mundo impreso
+    Los patrones de RWD
+    Filosofías como mobile first o desktop first
+  Los ingredientes del RWD:
+    Viewport(portrait, landscape)
+    grid, layouts, media
+    medidas relativas
+    media querys
+    calculos
+
+  Despues vería

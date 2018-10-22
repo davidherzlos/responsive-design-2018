@@ -1,0 +1,32 @@
+Infraestructura de una pagina web
+DOM
+Semantica y etiquetas html
+Atributos
+Elementos estructurales comunes
+Elementos de contenido comunes
+Elementos de funcionalidad comunes
+Tipos de estilos CSS
+Reglas CSS
+Cascada
+Principios de disenio en CSS y propiedades
+Medidas
+colores
+tipografias
+modelo de caja
+alineacion
+tipos de displays
+flexbox
+
+
+
+
+Buenas practicas
+layouts, grids, bloques, elementos, modificadores
+Metodologias CSS
+
+
+
+transversales
+inspector de elementos
+editores de texto
+

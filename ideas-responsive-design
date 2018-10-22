@@ -1,0 +1,8 @@
+# Considerando los patrones de responsive design identificados por Luke Wroblensky, me parece que puede ser interesante aplicarlos con prioridades, por lo menos de manera provisional:
+- Primero Tiny tweaks, pues son ajustes mínimos
+- Después mostly fluid, pues convina lo flexible con columnas que caen hacia abajo
+- Después COLUMN DROP, para hacer colocación de columnas una vez que ya no se puede hacer mas fluid y ver como alternativa:
+- Layout Shifter, este se puede valorar junto con:
+- Off canvas para hacer adaptaciones realmente avanzadas
+
+Esta sería mi prioridad.

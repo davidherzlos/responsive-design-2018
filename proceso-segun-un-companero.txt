@@ -1,0 +1,22 @@
+En experiencia propia este seria el flujo de trabajo de un equipo de desarrollo:
+
+1
+Se planea el propósito del sitio web y el funcionamiento de cada pagina que contendrá.
+
+2
+El contenido es segmentado y estructurado para tener una buena jerarquía de información para entregarle al usuario.
+
+3
+Un diseñador creara el prototipo del proyecto el cual podrá cambiar constantemente hasta tener una versión final.
+
+4
+Ya que se tiene la versión final del proyecto, el desarrollador Front End comenzará a maquetar el sitio desde 0 usando html, css y js. El sitio web deberá ser responsive para que el usuario pueda acceder desde cualquier dispositivo sin importar el tamaño de pantalla con el que cuente. Un objetivo importante del desarrollador Front End es optimizar al máximo todo el sitio web como imágenes, hojas de estilo, scripts en js, los pedidos al cdn, etc. Se puede incluso “modularizar” y agilizar el desarrollo del código usando pre-procesadores como sass, less o stylus. Todo depende de la complejidad del proyecto y los conocimientos del equipo Front End. Si no tienes equipo de desarrollo Front End o si el proyecto no requiere de mas de un desarrollador puedes optar por usar un framework Front End como Booststrap o Foundation, en caso de que tengas poco tiempo de desarrollo.
+
+5
+Cuando el proyecto esta totalmente terminado se sube a producción, es decir, subir los archivos ya listos a algún hosting donde podamos publicar el sitio a todo el mundo.
+
+6
+Al final el sitio sera accesible para cualquier persona desde cualquier dispositivo y lo que queda es la entrega de nuevo contenido, mejoras en la interfaz o reparar algunos problemas de maquetado para algunos dispositivos o navegadores.
+
+Opinión:
+Si estas empezando en el desarrollo web te recomiendo que tomes toda la carrera de arquitectura Front End al terminar este curso para que expandas tu talento con nuevas herramientas y tecnologías que posiblemente hagan que ames el FRONT END. 😄
