@@ -6,8 +6,9 @@ Para un temario de RWD yo primero:
   Los ingredientes del RWD:
     Viewport(portrait, landscape)
     grid, layouts, media
-    medidas relativas
+    medidas relativas y maneras de calcular rellenos, paddings, fuentes, maragins, tamanios etc
     media querys
     calculos
+    enfoques: mobile first, desktop firts, content-first
 
   Despues vería

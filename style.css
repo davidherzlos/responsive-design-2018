@@ -1,0 +1,38 @@
+/* Media querys standar para Desktop First, recomendable asegurar se vea bien en estas medidas */
+
+@media screen and (max-width: 1024px){
+  
+  
+}
+
+@media screen and (max-width: 768px){
+  .header {
+    height: auto;
+    display: block;
+  }
+  .header ol {
+    justify-content: flex-end;
+  }
+  .contact-link {
+    background: none;
+  }
+}
+
+@media screen and (max-width: 480px){
+  .header ol {
+    display: block;
+  }
+  .header ol li {
+    height: 80px;
+  }
+  .header a {
+    
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .header .logo {
+    text-align: center;
+  }
+}

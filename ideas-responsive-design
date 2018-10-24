@@ -6,3 +6,91 @@
 - Off canvas para hacer adaptaciones realmente avanzadas
 
 Esta sería mi prioridad.
+
+
+
+Formas de organizar estilos en hojas css
+Reset/normalize
+Variables and mixins
+Generic styling (fonts, headers, lists, tables etc,)
+Basic layout (basic styling/positioning for header, main, aside, footer, styling for a grid system etc.)
+Components
+Plugin styles (usually 3rd party)
+Media queries
+Print styles (depending on the complexity, you can include it in the LESS or keep it seperate. I now tend to keep it seperate)
+
+
+
+breakpoint utiles:
+
+mini-phone{
+	@media screenand (max-width: 380px){
+		content;
+	}
+}
+
+phone{
+	@media screenand (max-width: 480px){
+		content;
+	}
+}
+
+tablet{
+	@media screenand (max-width: 768px){
+		content;
+	}
+}
+
+desk{
+	@media screenand (max-width: 1024px){
+		content;
+	}
+}
+
+full-4k{
+	@media screenand (max-width: 2000px){
+		content;
+	}
+}
+
+
+mas medias sugeridas
+
+Móviles: entre 320 y 480 píxeles.
+Tablets: entre 768 y 1024 píxeles.
+Pantallas grandes: más de 1024 píxeles o más.
+
+Enfoques en el uso de media querys
+mobile first
+desktop first
+content first
+
+
+
+/**
+ * CONTENTS
+ *
+ * SETTINGS
+ * Global...............Globally-available variables and config.
+ *
+ * TOOLS
+ * Mixins...............Useful mixins.
+ *
+ * GENERIC
+ * Normalize.css........A level playing field.
+ * Box-sizing...........Better default `box-sizing`.
+ *
+ * BASE
+ * Headings.............H1–H6 styles.
+ *
+ * OBJECTS
+ * Wrappers.............Wrapping and constraining elements.
+ *
+ * COMPONENTS
+ * Page-head............The main page header.
+ * Page-foot............The main page footer.
+ * Buttons..............Button elements.
+ *
+ * TRUMPS
+ * Text.................Text helpers.
+ */
