@@ -5,7 +5,7 @@
   
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){ /* Un pixel abajo del ipad*/
   .header {
     height: auto;
     display: block;
@@ -15,6 +15,23 @@
   }
   .contact-link {
     background: none;
+  }
+  .project {
+    display: block;
+  }
+  .project-details {
+    width: auto; /*Mejor practica poner auto que 100%*/
+  }
+  .project-imageContainer {
+    width: auto;
+  }
+  .event-list {
+    display: block;
+  }
+  .event {
+    margin: 15px auto;
+    width: 70%
+
   }
 }
 
@@ -28,6 +45,9 @@
   .header a {
     
     justify-content: center;
+  }
+  .project-details {
+    font-size: 15px;
   }
 }
 

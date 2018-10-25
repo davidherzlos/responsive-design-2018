@@ -110,12 +110,12 @@ figure {
 }
 .project {
   /* Los colores de borde se heredan del texto */
-  margin: 0px 20px 15px 20px;
+  margin: 10px 20px 15px 20px;
   padding: 20px;
   /* Una propiedad interesante es border-box, para fijar un ancho que suma los paddins y margins */
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   box-shadow: 0px 0px 9px 0px #8282823d;
   border: 1px solid #9898984f;
@@ -123,24 +123,36 @@ figure {
   /* border-radius: 3px; */
   flex-wrap: wrap;
 }
+.project-details {
+  width: 50%;
+  font-size: 16px;
+}
 .project-title {
-  font-size: 30px;
-  margin-bottom: 10px;
+  margin: 0.441176471em 0.147058824em;
+  font-size: 2em;
 }
-.project-course,
-.project-date,
-.project-url {
-  margin: 10px 0;
+.project-course {
+  font-size: 1.6em;
+  margin: 0 0.1953125em 1.3671875em
 }
-.project-description {
-  font-size: 20px;
+.project-date {
+  font-size: 1.4em;
+  margin: 0 0.210084034em;
   
 }
-.project strong {
-  font-family: 'Fjalla One', sans-serif;
+.project-url {
+  font-size: 1.4em;
+  margin: 0 0.210084034em;
+}
+.project-description {
+  font-size: 1.25em;
+  margin: 0.210084034em 0.25em;
 }
 .project-imageContainer {
-  width: 500px;
+  width: 50%;
+}
+.project-image {
+  width: 100%;
 }
 .footer {
   color: white;
@@ -171,38 +183,41 @@ figure {
   display: block;
 }
 .event {
-  margin: 15px;
-  width: 480px;
-  border-radius: 7px;
+  margin: 15px 0;
+  width: 47%;
+  border-radius: 6px;
   overflow: hidden;
   flex-shrink: 0;
   background-color: hsl(202, 67%, 93%);
 }
+.event-imageContainer{
+  height: 250px;
+}
 .event img {
-  width: 480px;
-  height: 200px;
+  width: 100%;
+  height: 100%;
   /* ATención, para ajustar imagenes */
   object-fit: cover;
 }
 .event-detail {
-  margin: 40px 40px;
-  margin-top: -40px;
+  margin: 25px 40px;
+  margin-top: -80px;
   background-color: white;
   position: relative;
-  padding: 20px;
+  padding: 15px 30px;
   text-align: center;
-  border-radius: 3px;
-}
-.event-description {
-  text-align: left;
+  border-radius: 8px;
 }
 .event-url {
   /* el border asimila el color del texto */
   color: #056fff;
-  border: 1px solid;
-  padding: 5px 20px;
+  border: 1px solid rgb(212, 215, 227);
+  padding: 12px 20px;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 7px;
+  font-size: 21px;
+  margin: 40px 0px 10px;
+  display: block;
 }
 .contact {
   background-color: #056fff;
