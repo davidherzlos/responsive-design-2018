@@ -94,3 +94,14 @@ content first
  * TRUMPS
  * Text.................Text helpers.
  */
+
+
+
+
+Es importante tomar en cuenta el tamanio de los dedos para hacer tap, los elementos en los que se hace tap o tap target, deben ser al menos de 40 x 40 0 48 pixeles px para asegurar que se puede interactuar con ellos.
+
+Cosas a arreglar en tu proyecto
+
+arreglar medidas para tapping usando min width
+Usar correctamente width min-width y max-width
+Usa medidas relativas a los tamanios del layout, box sizing, typografias, rellenos, margenes, bordes y ajustes de flex

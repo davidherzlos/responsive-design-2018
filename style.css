@@ -13,6 +13,17 @@
   .header ol {
     justify-content: flex-end;
   }
+  .hero {
+    height: 200px;
+  }
+  .hero h1 {
+    position: relative;
+    font-size: 200%;
+    padding: 1em 1em;
+  }
+  .hero-image {
+    margin-top: -70px;
+  }
   .contact-link {
     background: none;
   }
@@ -31,11 +42,18 @@
   .event {
     margin: 15px auto;
     width: 70%
-
   }
 }
 
 @media screen and (max-width: 480px){
+  .header .menu {
+    background: #232d36;
+  }
+  .header .logo {
+    text-align: center;
+    display: block;
+    width: auto;
+  }
   .header ol {
     display: block;
   }
@@ -46,13 +64,71 @@
     
     justify-content: center;
   }
+  .hero {
+    height: 150px;
+  }
+  .hero h1 {
+    font-size: 160%;
+    padding: 0.5em;
+  }
+  .hero-image {
+    margin-top: -40px;
+  }
+  .project {
+    margin: 5px 5px 15px 5px;
+    border: 1px solid #9898984f;
+    flex-wrap: wrap;
+    box-shadow: none;
+  }
   .project-details {
     font-size: 15px;
+  }
+  .event {
+    margin: 15px auto;
+    width: 90%
+  }
+  .contact {
+    display: block;
+    text-align: center;
+    height: auto;
+    padding: 1.5em;
+  }
+  .contact .form-email, .contact .social {
+    padding: 2em 0;
+  }
+  .form-email button {
+    background: transparent;
+    color: white;
+    padding: 13px 25px;
+    margin: 20px auto;
+    display: block;
+    width: 56%;
   }
 }
 
 @media screen and (max-width: 320px){
-  .header .logo {
-    text-align: center;
+  .hero h1 {
+    font-size: 120%;
+    padding: 1em;
+  }
+  .hero-image {
+    margin-top: -25px;
+  }
+  .project-details {
+    font-size: 15px;
+  }
+  .event {
+    margin: 10px 0;
+    width: 100%;
+    border-radius: initial;
+  }
+  .event-detail {
+    margin: 0;
+  }
+  .form-email button {
+    width: 90%;
+  }
+  .contact .form-email, .contact .social {
+    padding: 1em 0;
   }
 }
