@@ -31,12 +31,11 @@ h1 strong {
 }
 h2 {
   color: #026fff;
-  text-transform: uppercase;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: bolder;
-  font-size: 24px;
+  font-size: 36px;
   margin: 0;
   padding: 20px;
+  font-variant: small-caps;
+  letter-spacing: 1px;
 }
 ol, ul {
   margin: 0; 
@@ -62,7 +61,7 @@ figure {
   /* z-index: 1; */
 }
 .header .logo img {
-  height: 50px;
+  max-width: 160px;
 }
 .header .menu {
   position: sticky;
@@ -83,10 +82,14 @@ figure {
   align-items: center;
   padding: 0 10px;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 500;
+  transition: background 750ms ease-in-out;
+}
+.header a:hover {
+  background: #056dff;
 }
 .contact-link {
-  background: #056fff;
+  background: #056dff3a;
 }
 .hero {
   background: #1d252c;
@@ -98,8 +101,11 @@ figure {
 .hero h1 {
   position: relative;
   z-index: 1;
-  font-size: 303%;
-  padding: 2em 1em;
+  font-size: 300%;
+  padding: 1em 1.5em;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  line-height: 60px;
 }
 .hero figure {
   position: absolute;
@@ -110,10 +116,7 @@ figure {
 .hero-image {
   width: 100%;
   object-fit: cover;
-  object-position: center;
-  filter: opacity(85%);
-  /* transform: scale(1.2); */
-  margin-top: -110px;
+  margin-top: -120px;
 }
 .portfolio {
   background-color: #fbfbfb;
@@ -173,10 +176,11 @@ figure {
   flex-wrap: wrap;
   justify-content: space-evenly;
   background-color: #fbfbfb;
+  
 }
 .event-list-title {
-  /* margin-left: 20px; */
-  display: block;
+  background-color: #fbfbfb;
+  padding: 5px 20px;
 }
 .event {
   margin: 1%;
@@ -216,7 +220,7 @@ figure {
   display: block;
 }
 .contact {
-  background-color: #056fff;
+  background-color: #1d252c;
   color: white;
   height: 300px;
   display: flex;
@@ -287,11 +291,11 @@ figure {
   color: white;
 }
 .main-container {
-  max-width: 1024px;
+  max-width: 1280px;
   margin: 0 auto;
 }
 .container {
-  max-width: 1024px;
+  max-width: 1280px;
   margin: 0 auto;
   display: inherit;
   justify-content: inherit;
@@ -302,6 +306,9 @@ figure {
   box-shadow: inherit;
   background: inherit;
   flex: inherit;
+}
+.blue-border {
+  border-left: 23px solid #026fff;
 }
 /* Media querys, practice */
 
