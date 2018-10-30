@@ -1,6 +1,7 @@
 /* Media querys standar para Desktop First, recomendable asegurar se vea bien en estas medidas */
 
 @media screen and (max-width: 1023px){
+  
   .hero {
     height: 350px;
   }
@@ -15,6 +16,28 @@
   }
   .blue-border {
     border-left: 18px solid #026fff;
+  }
+  .project-details {
+    width: 50%;
+  }
+  .project-imageContainer {
+    width: 50%;
+  }
+  .event{
+    width: 70%;
+  }
+  .contact {
+    height: 40vh;
+  }
+  .contact h3 {
+    font-size: 2.5em;
+  }
+  .contact-photo {
+    height: 60vh;
+  }
+  .contact-photo img {
+    width: 100%;
+    margin-top: -150px;
   }
 }
 
@@ -49,6 +72,10 @@
   }
   .project-imageContainer {
     width: auto;
+    text-align: center;
+  }
+  .project-image {
+    width: 85%;
   }
   .event-list {
     display: block;
@@ -60,15 +87,20 @@
   .blue-border {
     border-left: 14px solid #026fff;
   }
+  .contact {
+    height: 45vh;
+  }
+  .contact-photo {
+    height: 55vh;
+  }
+  .contact-photo img {
+    margin-top: -100px;
+  }
+  
 }
 
 @media screen and (max-width: 479px){
-  .header .menu {
-    background: #1d252c;
-
-  }
   .header .logo {
-    text-align: center;
     display: block;
     width: auto;
     padding: 10px 0;
@@ -76,15 +108,40 @@
   .header .logo img {
     width: 160px;
   }
+  .header .menu{
+    background: #000000d8;
+    position: fixed;
+    top: 0;
+    left: -100vw;
+    bottom: 0;
+    width: 100vw;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    transition: left 250ms ease-in-out;
+  }
+  .menu.is-active{
+    left: 0;
+  }
   .header ol {
     display: block;
   }
   .header ol li {
     height: 60px;
   }
+  .header a:hover {
+    background: none;
+  }
+  .header .home-link{
+    opacity: 1;
+  }
   .header a {
-    
     justify-content: center;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 1.5em;
+    text-decoration: underline;
   }
   .hero {
     height: 240px;
@@ -110,22 +167,36 @@
   }
   .project {
     margin: 5px 5px 15px 5px;
-    border: 1px solid #9898984f;
+    border: initial;
     flex-wrap: wrap;
     box-shadow: none;
   }
+  .project-title {
+    margin: 0 0 0.441176471em 0;
+    font-size: 2em;
+  }
   .project-details {
     font-size: 15px;
+  }
+  .project-image {
+    width: 100%;
   }
   .event {
     margin: 15px auto;
     width: 90%
   }
   .contact {
-    display: block;
-    text-align: center;
-    height: auto;
-    padding: 1.5em;
+    height: initial;
+  }
+  .contact-photo {
+    height: initial;
+  }
+  .contact-photo img {
+    margin-top: 0;
+    transform: scale(1.2);
+  }
+  .contact h3 {
+    font-size: 2em;
   }
   .contact .form-email, .contact .social {
     padding: 2em 0;
@@ -140,6 +211,9 @@
   }
   .blue-border {
     border-left: 10px solid #026fff;
+  }
+  .icon-menu{
+    display: block;
   }
 }
 
@@ -161,7 +235,7 @@
     font-size: 15px;
   }
   .event {
-    margin: 10px 0;
+    margin: 40px 0;
     width: 100%;
     border-radius: initial;
   }
@@ -169,7 +243,10 @@
     margin: 0;
   }
   .form-email button {
-    width: 90%;
+    width: initial;
+  }
+  .form-email button {
+    width: initial;
   }
   .contact .form-email, .contact .social {
     padding: 1em 0;

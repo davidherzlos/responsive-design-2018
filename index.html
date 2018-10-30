@@ -14,7 +14,8 @@
     <!-- Como cargar hoja de estilos con media querys -->
     <!-- <link rel="stylesheet" href="large.css" media="screen and (max-width: 1024px)"> -->
   </head>
-  <body>
+  <body id="home">
+      <i class="icon-menu"></i>
       <header class="header">
         <div class="container">
           <figure class="logo">
@@ -23,6 +24,7 @@
           <nav class="menu">
             <ol>
               <!-- Las ligas de preferencia en espanol -->
+              <li><a id="home-anchor" class="home-link" href="#">Home</a></li>
               <li><a id="portafolio-anchor" class="portfolio-link" href="#">Portafolio</a></li>
               <li><a id="experiencias-anchor" class="events-link" href="#">Experiencias</a></li>
               <li><a id="contacto-anchor" class="contact-link" href="#">Trabajemos juntos</a></li>
@@ -75,11 +77,20 @@
         <div class="container">
           <article class="event">
             <figure class="event-imageContainer">
-              <img class="event-image" src="./images/platzi-conf.jpg" alt="" width="500px" />
+                <video class="html-video" src="https://github.com/LeonidasEsteban/responsive-design-portafolio/blob/master/videos/f8.mp4?raw=true" controls></video>
+              <!-- <img class="event-image" src="./images/platzi-conf.jpg" alt="" width="500px" /> -->
             </figure>
             <div class="event-detail">
               <h3 class="event-title">Evento que paso en 2018</h3>
-              <p class="event-description">Una descripcion sobre el evento</p>
+              <a class="event-url" href="#">Ver platica</a>
+            </div>
+          </article>
+          <article class="event">
+            <figure class="event-imageContainer">
+                <!-- <iframe class="youtube-video" src="https://www.youtube.com/embed/NDG1cO6B0PQ" frameborder="0" encrypted-media" allowfullscreen></iframe> -->
+            </figure>
+            <div class="event-detail">
+              <h3 class="event-title">Evento que paso en 2018</h3>
               <a class="event-url" href="#">Ver platica</a>
             </div>
           </article>
@@ -89,7 +100,6 @@
             </figure>
             <div class="event-detail">
               <h3 class="event-title">Evento que paso en 2018</h3>
-              <p class="event-description">Una descripcion sobre el evento</p>
               <a class="event-url" href="#">Ver platica</a>
             </div>
           </article>
@@ -99,27 +109,19 @@
             </figure>
             <div class="event-detail">
               <h3 class="event-title">Evento que paso en 2018</h3>
-              <p class="event-description">Una descripcion sobre el evento</p>
-              <a class="event-url" href="#">Ver platica</a>
-            </div>
-          </article>
-          <article class="event">
-            <figure class="event-imageContainer">
-              <img class="event-image" src="./images/platzi-conf.jpg" alt="" width="500px" />
-            </figure>
-            <div class="event-detail">
-              <h3 class="event-title">Evento que paso en 2018</h3>
-              <p class="event-description">Una descripcion sobre el evento</p>
               <a class="event-url" href="#">Ver platica</a>
             </div>
           </article>
         </div>
       </section>
-      <section id="contacto" class="contact">
+      <figure id="contacto" class="contact-photo">
+        <img src="./images/f8.JPG" alt="">
+      </figure>
+      <section class="contact">
         <div class="container">
+            <h3>¿Creamos algo juntos?</h3>
           <form class="form-email" action="/suscripcion">
             <!-- <label for="emailField">Djame tu email</label> esto es bueno para checkboxes por ejemplo, ya que no cuenta con placeholder-->
-            <h3>¿Creamos algo juntos?</h3>
             <input id="emailField" type="email" placeholder="Dejame tu email" required>
             <button type="submit" name="button">Enviar</button>
           </form>
@@ -137,7 +139,7 @@
             <p>Curso de Desarrollo Web online 2018 <img src="./images/platzi.png" alt="Platzi"></p>
           </div>
           <div>
-              Designed with <3 by<a href="https://twitter.com/davidherzlos"> <strong>@davidherzlos</strong></a>
+              Created with <3 by<a href="https://twitter.com/davidherzlos"> <strong>@davidherzlos</strong></a>
           </div>
         </div>
         <br>

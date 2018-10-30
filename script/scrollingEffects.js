@@ -1,6 +1,10 @@
 $(document).ready(function(){
   
   // Section scrolling
+  $('#home-anchor').on('click', function(e){
+    e.preventDefault();
+    $('#home').animatescroll();
+  });
   $('#portafolio-anchor').on('click', function(e){
     e.preventDefault();
     $('#portafolio').animatescroll();
